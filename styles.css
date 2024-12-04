@@ -1,0 +1,40 @@
+.top{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+.header{
+    display: flex;
+    margin-left: 0;
+    margin-right: 0;
+    justify-content: space-around;
+}
+.logo{
+    display: flex;
+}
+ul{
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.content{
+    display: flex;
+    justify-content: space-evenly; 
+}
+.button{
+    max-width: 100px;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+.img{
+    height: 200px;
+    background: grey;
+    width: 400px;
+
+}
