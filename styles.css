@@ -20,6 +20,7 @@ body{
 }
 .logo{
     display: flex;
+    font-weight: bold;
 }
 ul{
     display: flex;
@@ -29,7 +30,7 @@ ul{
     list-style: none;
     margin: 0;
     padding: 0;
-    color: #F9FAF8;
+    color: #E5E7EB;
     font-size: 18px;
 }
 .content{
@@ -43,6 +44,10 @@ ul{
     max-width: 100px;
     background-color: #3882F6;
     color: #F9FAF8;
+    font-weight: bold;
+    font-size: medium;
+    border-style: solid;
+    border-color:#1f2937;
     padding: 5px;
     border-radius: 5px;
     font-family: 'Roboto',sans-serif;
@@ -165,5 +170,15 @@ ul{
 }
 .htext{
     font-weight: bold;
+    font-size: large;
+}
+.footer{
+    background-color:#1F2937;
+}
+.ftext{
+    padding: 40px;
+    font-family: 'Roboto',sans-serif;
+    color:#E5E7EB;
+    text-align: center;
     font-size: large;
 }
