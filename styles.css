@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 body{
     margin: 0;
 }
@@ -14,7 +13,7 @@ body{
     margin-left: 0;
     margin-right: 0;
     justify-content: space-around;
-    color: white;
+    color: #F9FAF8;
     font-size: 24px;
     margin-top: 20px;
     font-family: 'Roboto',sans-serif;
@@ -30,7 +29,7 @@ ul{
     list-style: none;
     margin: 0;
     padding: 0;
-    color: white;
+    color: #F9FAF8;
     font-size: 18px;
 }
 .content{
@@ -43,7 +42,7 @@ ul{
 .button{
     max-width: 100px;
     background-color: #3882F6;
-    color: white;
+    color: #F9FAF8;
     padding: 5px;
     border-radius: 5px;
     font-family: 'Roboto',sans-serif;
@@ -59,11 +58,11 @@ ul{
 .mtext{
     font-size: 48px;
     font-weight: 900;
-    color: white;
+    color: #F9FAF8;
 }
 .stext{
     font-size: 18px;
-    color: white;
+    color: #F9FAF8;
 }
 .img{
     height: 200px;
@@ -71,6 +70,8 @@ ul{
     width: 400px;
 
 }
+
+
 .second{
     display: flex;
     flex-direction: column;
@@ -109,4 +110,60 @@ ul{
     width: 150px;
     text-align: center;
     margin-top: 5px;
+}
+
+
+.third{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+}
+.text3{
+    margin: 100px;
+    width: 820px;
+    font-family: 'Roboto',sans-serif; 
+}
+.quote{
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    font-weight: lighter;
+}
+.author{
+    margin-left: 610px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.fourth{
+    margin: 100px;
+}
+
+.cta{
+    display: flex;
+    justify-content: space-around;
+    background-color: #3882F6;
+    padding: 50px;
+    border-radius: 10px;
+}
+.text4{
+    color: #F9FAF8;
+    font-family: 'Roboto',sans-serif;
+}
+.button2{
+
+    font-family: 'Roboto',sans-serif;
+    color: #F9FAF8;
+    border-color: #F9FAF8;
+    border-radius: 5px;
+    font-size: medium;
+    border-style: solid;
+    width: 130px;
+    border-width: 3px;
+    background-color: #3882F6;   
+}
+.htext{
+    font-weight: bold;
+    font-size: large;
 }
